@@ -9,7 +9,7 @@ class HeaderPrincipal extends React.Component {
       <header>
         <div className="container-fluid bg-header">
           <div className="container container-1360 justify-content-between align-items-center d-flex">
-            <Link to="/">
+            <Link to="/home">
               <img src={riotLogo} className="tm-riot" />
             </Link>
             <div class="pt-20 pb-20 d-flex justify-content-end">

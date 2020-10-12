@@ -9,7 +9,7 @@ class HeaderSecundario extends React.Component {
       <header>
         <div className="container-fluid bg-header">
           <div className="col-md-4 pt-20 pb-20 container container-1360">
-            <Link to="/">
+            <Link to="/home">
               <img src={riotLogo} className="tm-riot" />
             </Link>
           </div>

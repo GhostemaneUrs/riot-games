@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/styles.css";
 import akaliImg from "../img/assassin-d64d3ffdda15e1eed637aefe6a2c7fee.png";
-import { render } from "@testing-library/react";
+
 
 class Akali extends React.Component {
   render() {
