@@ -6,6 +6,7 @@ import Akali from "../components/akali.js";
 import DestacadosPrincipales from "../components/destacadosPrincipales.js";
 import DestacadosSecundarios from "../components/destacadosSecundarios.js";
 
+ 
 class Home extends React.Component {
   constructor(props) {
     super(props);

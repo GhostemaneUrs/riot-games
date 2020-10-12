@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/styles.css";
 import backRegistro from "../img/backRegistro.jpg";
-
+import { Link } from "react-router-dom";
 
 class Registro extends React.Component {
   state = {};
@@ -70,9 +70,9 @@ class Registro extends React.Component {
                   </p>
                   <p>
                     ¿Ya tiene una cuenta?
-                    <a className="link" href="./login.html" target="_blank">
+                    <Link to="/login" className="link">
                       Inicia Sesion
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </form>
