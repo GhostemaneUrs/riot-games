@@ -45,7 +45,7 @@ class Home extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="full">
         <HeaderPrincipal />
         <Carrusel />
         <div className="container container-1360">

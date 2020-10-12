@@ -211,8 +211,6 @@ body {
   font-size: 15px;
 }
 
-
-
 .styleTabla {
   background-color: #f5f6f8;
   height: 100vh;
@@ -231,6 +229,13 @@ body {
 
 .pt-10 {
   padding-top: 10px;
+}
+
+.full {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .textoJuega {
@@ -264,7 +269,7 @@ body {
   height: 50px;
 }
 
-.styleLogin{
+.styleLogin {
   overflow: auto;
   background-size: cover;
   background-position-y: 50%;
@@ -272,13 +277,13 @@ body {
   height: 100vh;
 }
 
-.styleFullScreen{
-  overflow: auto; 
-  width: 100%; 
+.styleFullScreen {
+  overflow: auto;
+  width: 100%;
   height: 91vh;
 }
 
-.mantenerSesion{
+.mantenerSesion {
   margin-left: 28px !important;
 }
 
@@ -289,7 +294,7 @@ body {
 }
 
 #submit-btn {
-   border: #282828 solid 2px;
+  border: #282828 solid 2px;
   background-color: #111111;
   padding: 25px;
   border-radius: 10%;
@@ -372,7 +377,6 @@ body {
     padding-left: 15px;
     padding-right: 15px;
   }
-
 }
 
 .mmb-20 {
@@ -612,7 +616,6 @@ body {
     height: 40px;
   }
 }
-
 
 /*---------------------------Media Query Login -------------------*/
 
