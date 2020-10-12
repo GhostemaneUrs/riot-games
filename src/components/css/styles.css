@@ -238,6 +238,14 @@ body {
   justify-content: space-between;
 }
 
+
+.error404{
+  height: 100vh;
+}
+.error_Image {
+    height: 500px;
+}
+
 .textoJuega {
   text-align: center;
   position: relative;

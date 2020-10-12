@@ -2,6 +2,7 @@ import React from "react";
 import "./css/styles.css";
 import backLogin from "../img/backlogin.jpg";
 import { Link } from "react-router-dom";
+import NotFound from "../pages/notFound";
 
 class Login extends React.Component {
   render() {
@@ -60,13 +61,13 @@ class Login extends React.Component {
                   </div>
                   <div class="mt-20">
                     <div class="px-10">
-                      <a
-                        href="#"
+                      <Link
+                        to= "/NotFound"
                         class="d-flex justify-content-center"
                         target="#"
                       >
                         ¿No puedes iniciar sesión?
-                      </a>
+                      </Link>
                     </div>
                     <div class="px-10">
                       <Link
