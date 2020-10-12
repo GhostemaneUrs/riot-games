@@ -1,0 +1,671 @@
+button,
+input,
+select {
+  outline: none !important;
+}
+input:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container-1360 {
+  max-width: 1360px !important;
+  width: 100%;
+}
+
+.tm-riot {
+  width: 90px;
+  height: 40px;
+}
+
+.bg-header {
+  background-color: #111111;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bg-negro {
+  background-color: black;
+  background-size: cover;
+}
+
+.bradius-15 {
+  border-radius: 15px;
+}
+
+.fz-30 {
+  font-size: 30px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-40 {
+  font-size: 40px;
+}
+
+.f-italic {
+  font-style: italic !important;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.bord-botton {
+  border-bottom: 9px solid #111111;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.negro {
+  color: #111111;
+}
+
+.mx-8 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.f-colum {
+  flex-direction: column;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.hover-cont:hover {
+  transform: scale(1.1);
+  background-color: #29292969 !important;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.mh-259 {
+  max-height: 259px;
+}
+
+.akaliBack {
+  background-image: url(../../img/back_2.jpg);
+  background-size: cover;
+  background-position-y: 74%;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.white {
+  color: white;
+}
+
+.bg-desarr {
+  background-color: #dcba58;
+  border-radius: 4%;
+  padding: 20px;
+  margin: 0 20px;
+}
+
+.btn-desarr {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(13, 216, 13);
+}
+
+.fz-70 {
+  font-size: 70px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.fz-16 {
+  font-size: 16px;
+}
+.fz-25 {
+  font-size: 25px;
+}
+
+.mmt-30 {
+  margin: 30px;
+}
+
+.btn-desarr:hover {
+  background-color: rgb(65, 241, 65);
+  transform: scale(1.05);
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.box-shadow {
+  box-shadow: 7px 14px 26px -9px black;
+}
+
+.borde-footer {
+  border-bottom: 1px solid rgb(63, 63, 63);
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.tm-riot {
+  width: 90px;
+  height: 40px;
+}
+
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.color_white {
+  color: white !important;
+}
+
+.fz-15 {
+  font-size: 15px;
+}
+
+
+
+.styleTabla {
+  background-color: #f5f6f8;
+  height: 100vh;
+}
+
+.registro-form {
+  height: auto;
+  width: 65%;
+  margin: auto;
+  border: 2px solid #111111;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.textoJuega {
+  text-align: center;
+  position: relative;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.inputs {
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  border: transparent;
+  border-radius: 4px;
+  border: 2px solid #111111;
+  padding-left: 10px;
+}
+
+.registrate {
+  width: 70%;
+  background-color: #b03336;
+  color: #f1faee;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 50px;
+}
+
+.styleLogin{
+  overflow: auto;
+  background-size: cover;
+  background-position-y: 50%;
+  background-position-x: center;
+  height: 100vh;
+}
+
+.styleFullScreen{
+  overflow: auto; 
+  width: 100%; 
+  height: 91vh;
+}
+
+.mantenerSesion{
+  margin-left: 28px !important;
+}
+
+.input-login {
+  height: 75px !important;
+  font-size: 150% !important;
+  width: 90% !important;
+}
+
+#submit-btn {
+   border: #282828 solid 2px;
+  background-color: #111111;
+  padding: 25px;
+  border-radius: 10%;
+  color: white;
+}
+
+.max-630 {
+  max-width: 630px;
+}
+
+#login-check {
+  font-size: 18px;
+  color: white;
+}
+
+.styleImg {
+  background-size: cover;
+  background-position-y: 52%;
+  background-position-x: center;
+  height: 100vh;
+}
+
+#login {
+  background-color: #111111;
+  height: auto;
+  opacity: 0.9;
+  border: #282828 solid 1px;
+  padding: 40px;
+}
+
+#login-title {
+  color: white;
+  font-weight: bold;
+}
+
+/*---------------------------container -------------------*/
+@media (max-width: 769px) {
+  div #btn-play {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 425px) {
+  div #btn-play {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: small;
+  }
+}
+
+@media (max-width: 1440px) {
+  .fz-70 {
+    font-size: 43px;
+  }
+
+  .fz-40 {
+    font-size: 35px !important;
+  }
+
+  #akali .fz-30 {
+    font-size: 25px;
+  }
+
+  #leagueOfLegends .fz-30 {
+    font-size: 25px;
+  }
+
+  .py-20 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .px-20 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
+.mmb-20 {
+  margin-top: 20px;
+}
+
+.mmt-30 {
+  margin: 30px;
+}
+
+@media (max-width: 991px) {
+  .centrar {
+    align-items: center;
+  }
+  .mmb-20 {
+    margin-top: 0;
+  }
+
+  .mmt-30 {
+    margin: 10px;
+  }
+
+  .fz-20 {
+    font-size: 20px;
+  }
+
+  #akali .fz-30,
+  #leagueoflegends .fz-30,
+  #Valorant .fz-30,
+  #tft .fz-30 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .centrar {
+    align-items: center;
+  }
+  #tft .tft {
+    margin-bottom: 30px;
+  }
+
+  #Valorant .sova {
+    margin-bottom: 30px;
+  }
+
+  .fz-70 {
+    font-size: 33px;
+  }
+
+  .fz-40 {
+    font-size: 25px !important;
+  }
+
+  .fz-30 {
+    font-size: 20px;
+  }
+
+  .py-20 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .px-20 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tm-riot {
+    width: 70px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .centrar {
+    align-items: center;
+  }
+
+  .fz-30 {
+    font-size: 17px;
+  }
+
+  .fz-20 {
+    font-size: 15px;
+  }
+
+  #akali .fz-30 {
+    font-size: 12px;
+  }
+
+  #leagueoflegends .fz-30 {
+    font-size: 12px;
+  }
+
+  .fz-70 {
+    font-size: 29px;
+  }
+
+  .fz-15 {
+    font-size: 13px;
+  }
+
+  .tm-riot {
+    width: 50px;
+    height: 20px;
+  }
+}
+
+/*---------------------------Registro -------------------*/
+@media (max-width: 1920px) {
+  .registro-form {
+    width: 70%;
+  }
+
+  #contenedorRegistro h1 {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 1467px) {
+  .registro-form {
+    width: 90%;
+  }
+
+  #contenedorRegistro h1 {
+    font-size: 35px !important;
+  }
+
+  #contenedorRegistro .fz-16 {
+    font-size: 16px;
+  }
+
+  .inputs {
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .registrate {
+    width: 85%;
+    height: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .registro-form {
+    width: 80%;
+  }
+
+  #contenedorRegistro h1 {
+    font-size: 25px !important;
+  }
+
+  #contenedorRegistro .fz-16 {
+    font-size: 14px;
+  }
+
+  .inputs {
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .registrate {
+    width: 50%;
+    height: 50px;
+  }
+}
+
+@media (max-width: 982px) {
+  .registro-form {
+    width: 70%;
+  }
+
+  #contenedorRegistro h1 {
+    font-size: 25px !important;
+  }
+
+  #contenedorRegistro .fz-16 {
+    font-size: 14px;
+  }
+
+  .inputs {
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .registrate {
+    width: 50%;
+    height: 50px;
+  }
+}
+
+@media (max-width: 840px) {
+  .registro-form {
+    width: 80%;
+  }
+
+  #contenedorRegistro h1 {
+    font-size: 25px !important;
+  }
+
+  #contenedorRegistro .fz-16 {
+    font-size: 14px;
+  }
+
+  .inputs {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .registrate {
+    width: 50%;
+    height: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .registro-form {
+    width: 90%;
+  }
+
+  #contenedorRegistro h1 {
+    font-size: 22px !important;
+  }
+
+  #contenedorRegistro .fz-16 {
+    font-size: 12px;
+  }
+
+  .inputs {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .registrate {
+    width: 55%;
+    height: 40px;
+  }
+}
+
+
+/*---------------------------Media Query Login -------------------*/
+
+@media (max-width: 1280px) {
+  #login {
+    padding: 20px;
+    width: 55%;
+  }
+}
+
+@media (max-width: 1199px) {
+  #login {
+    padding: 20px;
+    width: 55%;
+  }
+}
+
+@media (max-width: 999px) {
+  #login {
+    padding: 10px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 599px) {
+  #login {
+    padding: 10px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 499px) {
+  #login {
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  div .input-login {
+    height: 55px !important;
+    font-size: 100% !important;
+  }
+}
+
+@media (max-width: 499px) {
+  div #login-title {
+    font-size: xx-large;
+  }
+}
+
+@media (max-width: 450px) {
+  #login-check {
+    font-size: 10px;
+  }
+}
